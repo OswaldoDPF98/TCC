@@ -1,0 +1,35 @@
+from datetime import datetime
+
+class Quadra:
+    def __init__(self, id, nome, localizacao, tipo_esporte, descricao):
+        self.id = id
+        self.nome = nome
+        self.localizacao = localizacao
+        self.tipo_esporte = tipo_esporte
+        self.descricao = descricao
+        self.disponibilidade = {}  # Map<Date, Boolean>
+
+    def adicionar_quadra(self, nome, localizacao, tipo_esporte, descricao):
+        # Lógica para adicionar uma nova quadra
+        pass
+
+    def editar_quadra(self, id, nome, localizacao, tipo_esporte, descricao):
+        # Lógica para editar uma quadra existente
+        self.nome = nome
+        self.localizacao = localizacao
+        self.tipo_esporte = tipo_esporte
+        self.descricao = descricao
+
+    def excluir_quadra(self, id):
+        # Lógica para excluir uma quadra
+        pass
+
+    def ver_detalhes(self):
+        # Lógica para ver detalhes da quadra
+        return {
+            'nome': self.nome,
+            'localizacao': self.localizacao,
+            'tipo_esporte': self.tipo_esporte,
+            'descricao': self.descricao,
+            'disponibilidade': self.disponibilidade
+        }

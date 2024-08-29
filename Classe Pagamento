@@ -1,0 +1,15 @@
+class Pagamento:
+    def __init__(self, id, reserva_id, valor, data_pagamento):
+        self.id = id
+        self.reserva_id = reserva_id
+        self.valor = valor
+        self.data_pagamento = data_pagamento
+
+    def processar_pagamento(self, reserva_id, valor):
+        # Lógica para processar pagamento
+        pass
+
+    def ver_pagamentos(self, reserva_id):
+        # Lógica para ver detalhes do pagamento
+        pass
+

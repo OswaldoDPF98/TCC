@@ -1,0 +1,30 @@
+class Usuario:
+    def __init__(self, id, nome, email, senha, telefone, endereco):
+        self.id = id
+        self.nome = nome
+        self.email = email
+        self.senha = senha
+        self.telefone = telefone
+        self.endereco = endereco
+
+    def registrar(self):
+        # Lógica para registrar um novo usuário
+        pass
+
+    def login(self, email, senha):
+        # Lógica para login
+        return self.email == email and self.senha == senha
+
+    def recuperar_senha(self, email):
+        # Lógica para recuperar senha
+        pass
+
+    def editar_perfil(self, nome, telefone, endereco):
+        # Lógica para editar perfil
+        self.nome = nome
+        self.telefone = telefone
+        self.endereco = endereco
+
+    def ver_historico_reservas(self):
+        # Lógica para ver histórico de reservas
+        pass

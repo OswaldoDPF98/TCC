@@ -1,0 +1,19 @@
+class Reserva:
+    def __init__(self, id, usuario_id, quadra_id, data_reserva, valor):
+        self.id = id
+        self.usuario_id = usuario_id
+        self.quadra_id = quadra_id
+        self.data_reserva = data_reserva
+        self.valor = valor
+
+    def fazer_reserva(self, usuario_id, quadra_id, data_reserva, valor):
+        # Lógica para fazer uma reserva
+        pass
+
+    def cancelar_reserva(self, id):
+        # Lógica para cancelar uma reserva
+        pass
+
+    def ver_reservas_usuario(self, usuario_id):
+        # Lógica para ver reservas de um usuário específico
+        pass
