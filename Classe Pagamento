@@ -6,10 +6,7 @@ class Pagamento:
         self.data_pagamento = data_pagamento
 
     def processar_pagamento(self, reserva_id, valor):
-        # Lógica para processar pagamento
         pass
 
     def ver_pagamentos(self, reserva_id):
-        # Lógica para ver detalhes do pagamento
         pass
-

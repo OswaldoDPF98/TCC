@@ -6,13 +6,10 @@ class Administrador:
         self.senha = senha
 
     def login(self, email, senha):
-        # Lógica para login
         return self.email == email and self.senha == senha
 
     def gerenciar_quadras(self):
-        # Lógica para gerenciar quadras
         pass
 
     def ver_estatisticas_uso(self):
-        # Lógica para ver estatísticas de uso
         pass

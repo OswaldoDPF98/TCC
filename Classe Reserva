@@ -7,13 +7,10 @@ class Reserva:
         self.valor = valor
 
     def fazer_reserva(self, usuario_id, quadra_id, data_reserva, valor):
-        # Lógica para fazer uma reserva
         pass
 
     def cancelar_reserva(self, id):
-        # Lógica para cancelar uma reserva
         pass
 
     def ver_reservas_usuario(self, usuario_id):
-        # Lógica para ver reservas de um usuário específico
         pass
